@@ -29,7 +29,7 @@ const Footer = () => {
               Email us at
             </p>
             <a
-              href="mailto:hello@landify.design"
+              href="mailto:starkinfracon@gmail.com"
               className="mt-2 text-2xl leading-none text-yellow-700"
             >
               starkinfracon@gmail.com
