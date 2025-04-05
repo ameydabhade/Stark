@@ -32,7 +32,7 @@ const Footer = () => {
               href="mailto:hello@landify.design"
               className="mt-2 text-2xl leading-none text-yellow-700"
             >
-              hello@landify.design
+              starkinfracon@gmail.com
             </a>
           </div>
           <div className="mt-8 max-w-full w-[280px]">
