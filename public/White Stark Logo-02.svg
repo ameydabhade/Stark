@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-2 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-3 {
+        fill: #e6e7e8;
+        font-family: DidotTitle, 'Didot Title';
+        font-size: 60px;
+      }
+
+      .cls-4 {
+        fill: #d1d3d4;
+        font-family: Futura-Medium, Futura-Medium;
+        font-size: 48px;
+        font-weight: 500;
+        letter-spacing: 0em;
+      }
+    </style>
+  </defs>
+  <text class="cls-3" transform="translate(137.11 252.87)"><tspan class="cls-1" x="0" y="0">S</tspan><tspan class="cls-2" x="31.02" y="0">T</tspan><tspan class="cls-1" x="62.16" y="0">ARK</tspan></text>
+  <text class="cls-4" transform="translate(138.2 296.27)"><tspan x="0" y="0">INFRACON</tspan></text>
+</svg>
