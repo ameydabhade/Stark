@@ -11,7 +11,7 @@ import Footer from "./Footer";
 
 function Desktop() {
   return (
-    <main className="overflow-hidden bg-white ">
+    <main className="overflow-hidden ">
       <Header />
       <Hero />
       <Awards />

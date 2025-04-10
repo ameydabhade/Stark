@@ -22,8 +22,8 @@ const Hero = () => {
             }`}
           >
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight leading-tight text-zinc-800 mb-6">
-              <span className="italic">Make your home</span>{" "}
-              <span className="text-yellow-700">an ode to joy</span>
+              <span className="italic">Transform your</span>{" "}
+              <span className="text-yellow-700">Space</span>
             </h1>
             
             <p className="mt-6 text-lg md:text-xl font-light leading-relaxed text-neutral-700 max-w-3xl mx-auto">
