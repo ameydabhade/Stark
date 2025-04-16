@@ -14,11 +14,11 @@ function Desktop() {
     <main className="overflow-hidden ">
       <Header />
       <Hero />
-      <Awards />
+
       <About />
       <Metrics />
       <Services />
-      <Works />
+      {/* <Works /> */}
       <Footer />
     </main>
   );

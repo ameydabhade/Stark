@@ -21,26 +21,26 @@ const Services = () => {
           <span className="self-stretch my-auto">OUR SERVICES</span>
         </div>
         <h2 className="mt-6 text-6xl italic tracking-tighter leading-[72px] text-zinc-800 max-md:max-w-full max-md:text-4xl max-md:leading-[53px]">
-          We provide the{" "}
-          <span style={{ fontStyle: "italic" }}>best solutions</span> for your
-          dream home
+        Tailored Solutions for  {" "}
+          <span style={{ fontStyle: "italic" }}>Every Built </span>
+          Environment
         </h2>
       </div>
       <div className="flex flex-wrap gap-8 mt-20 max-md:mt-10 max-md:max-w-full">
         <ServiceCard
           icon="https://cdn.builder.io/api/v1/image/assets/TEMP/06d1649aed32b18dbefd5b057539cb38c9e29f8a?placeholderIfAbsent=true"
           title="Architectural & Interior design"
-          description="Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies."
+          description="Thoughtfully designed spaces that reflect your identity and purpose."
         />
         <ServiceCard
           icon="https://cdn.builder.io/api/v1/image/assets/TEMP/09c813caf06b5160cfc9c106fee426f405389f42?placeholderIfAbsent=true"
-          title="Building Renovation"
-          description="Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies."
+          title="Sustainability Consulting"
+          description="IGBC-compliant, environmentally conscious design strategies."
         />
         <ServiceCard
           icon="https://cdn.builder.io/api/v1/image/assets/TEMP/b98105ead7fc8769a3d792b73af28a01fc2950d6?placeholderIfAbsent=true"
-          title="Construciton Management"
-          description="Non diam pretium tristique augue placerat dolor. Accumsan nibh nunc, molestie volutpat ipsum, ultricies."
+          title="Landscape Design"
+          description="Functional, aesthetic, and sustainable outdoor environments."
         />
       </div>
     </section>

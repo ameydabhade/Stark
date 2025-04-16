@@ -55,13 +55,13 @@ const Footer = () => {
           {/* Left Column - Call to Action */}
           <div className="space-y-6">
             <h2 className="text-3xl md:text-4xl lg:text-5xl font-medium leading-tight text-zinc-800">
-              Kick-start your dream home with us
+            Let’s Build Something Exceptional Together
             </h2>
             <a
               href="#contact"
               className="inline-block mt-4 text-2xl md:text-3xl lg:text-4xl italic text-yellow-700 hover:text-yellow-800 transition-colors duration-200 border-b-2 border-yellow-700 pb-1"
             >
-              Send us a hi
+              Chat with us
             </a>
           </div>
           
@@ -69,9 +69,9 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Address */}
             <address className="not-italic">
-              <h3 className="text-xl md:text-2xl font-medium text-zinc-800 mb-3">Brooklyn, New York</h3>
+              <h3 className="text-xl md:text-2xl font-medium text-zinc-800 mb-3">Pune, India</h3>
               <p className="text-base font-light leading-relaxed text-zinc-700">
-                962 Fifth Avenue Str, 3rd Floor-Trump Building NY 10006, United States
+              Office no 30, Aditya Shagun Mall, NDA Pashan Road, Bavdhan, Pune-411021.
               </p>
             </address>
             
@@ -82,10 +82,10 @@ const Footer = () => {
                   Email us at
                 </p>
                 <a
-                  href="mailto:starkinfracon@gmail.com"
+                  href="mailto:info@starkinfracon.com"
                   className="text-xl md:text-2xl text-yellow-700 hover:text-yellow-800 transition-colors duration-200"
                 >
-                  starkinfracon@gmail.com
+                  info@starkinfracon.com
                 </a>
               </div>
               
@@ -95,10 +95,10 @@ const Footer = () => {
                   If you're in a hurry, quick call for us
                 </p>
                 <a
-                  href="tel:+8(663)125-08-59"
+                  href="tel:+91 7507999196"
                   className="text-xl md:text-2xl text-yellow-700 hover:text-yellow-800 transition-colors duration-200 flex items-center"
                 >
-                  +8 (663) 125-08-59
+                  +91 75079 99196
                 </a>
               </div>
             </div>

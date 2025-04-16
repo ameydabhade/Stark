@@ -8,7 +8,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <section className="relative w-full overflow-hidden bg-gray-50 mt-20 pt-20 pb-0">
+    <section className="relative w-full overflow-hidden bg-white mt-20 pt-20 pb-0">
       {/* Background design element */}
       <div className="absolute top-0 right-0 -z-10 h-96 w-96 rounded-full bg-yellow-700/5"></div>
       <div className="absolute bottom-0 left-0 -z-10 h-64 w-64 rounded-full bg-yellow-700/5"></div>
@@ -27,7 +27,7 @@ const Hero = () => {
             </h1>
             
             <p className="mt-6 text-lg md:text-xl font-light leading-relaxed text-neutral-700 max-w-3xl mx-auto">
-              We transform empty houses into extraordinary homes, crafting spaces that reflect your unique personality and lifestyle. With innovative design and meticulous attention to detail, we bring your vision to life.
+            We transform empty structures into extraordinary environments—crafted with your unique lifestyle, purpose, and personality in mind. Through innovative design and meticulous attention to detail, we bring your vision to life.
             </p>
 
             {/* CTA Buttons */}
@@ -54,7 +54,7 @@ const Hero = () => {
               
               {/* Main image */}
               <img
-                src="https://cdn.builder.io/api/v1/image/assets/TEMP/8cea47f5dbbd3e8c5063f2e11bf123ef8c60ef7e?placeholderIfAbsent=true"
+                src="/image.png"
                 alt="Beautiful modern home interior showcasing elegant design solutions"
                 className="w-full h-auto object-cover rounded-t-lg shadow-2xl"
               />

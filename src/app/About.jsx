@@ -21,10 +21,12 @@ const About = () => {
             {/* Description */}
             <div className="space-y-6 text-lg text-neutral-700 font-light leading-relaxed">
               <p>
-                At Stark Infracon, we transform architectural concepts into living spaces that reflect your personality and lifestyle. Our dedicated team brings expertise and passion to every project, ensuring exceptional quality and attention to detail.
+              At Stark Infracon, we specialize in transforming architectural ideas into purposeful, functional, and inspiring spaces. Our multidisciplinary team is passionate about design excellence and committed to delivering innovation and quality across all types of projects.
+
               </p>
               <p>
-                With over 15 years of industry experience, we've developed a reputation for reliability, craftsmanship, and innovative solutions. We handle everything from initial design consultation to final construction, creating spaces that are both beautiful and functional.
+        
+With over 15 years of experience, we’ve built a reputation for reliability, creativity, and uncompromising craftsmanship—from consultation to execution.
               </p>
               
               {/* Stats or Additional Info */}
