@@ -1,14 +1,30 @@
 import React, { useState, useEffect } from "react";
+import Image from "next/image";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {
     setIsVisible(true);
+    
+    // Add intersection observer for better performance
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          setIsVisible(true);
+          observer.disconnect();
+        }
+      },
+      { threshold: 0.1 }
+    );
+    
+    observer.observe(document.querySelector('.hero-section'));
+    
+    return () => observer.disconnect();
   }, []);
 
   return (
-    <section className="relative w-full overflow-hidden bg-white mt-20 pt-20 pb-0">
+    <section className="relative w-full overflow-hidden bg-white mt-20 pt-20 pb-0 hero-section">
       {/* Background design element */}
       <div className="absolute top-0 right-0 -z-10 h-96 w-96 rounded-full bg-yellow-700/5"></div>
       <div className="absolute bottom-0 left-0 -z-10 h-64 w-64 rounded-full bg-yellow-700/5"></div>
@@ -32,10 +48,10 @@ const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="mt-10 flex flex-wrap justify-center gap-4">
-              <button className="px-8 py-4 bg-yellow-700 text-white font-medium rounded-sm hover:bg-yellow-800 transition-colors duration-200 shadow-md">
+              <button className="px-8 py-4 bg-yellow-700 text-white font-medium rounded-sm hover:bg-yellow-800 transition-colors duration-200 shadow-md" aria-label="Explore Our Services">
                 Explore Our Services
               </button>
-              <button className="px-8 py-4 bg-white text-yellow-700 font-medium rounded-sm border border-yellow-700 hover:bg-yellow-50 transition-colors duration-200">
+              <button className="px-8 py-4 bg-white text-yellow-700 font-medium rounded-sm border border-yellow-700 hover:bg-yellow-50 transition-colors duration-200" aria-label="View Portfolio">
                 View Portfolio
               </button>
             </div>
@@ -53,11 +69,16 @@ const Hero = () => {
               <div className="absolute -right-4 top-1/3 -translate-y-1/2 h-24 w-8 bg-yellow-700/20 rounded-full blur-md"></div>
               
               {/* Main image */}
-              <img
-                src="/image.png"
-                alt="Beautiful modern home interior showcasing elegant design solutions"
-                className="w-full h-auto object-cover rounded-t-lg shadow-2xl"
-              />
+              <div className="relative w-full h-[600px]">
+                <Image
+                  src="/image.png"
+                  alt="Beautiful modern home interior showcasing elegant design solutions"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 75vw"
+                  priority
+                  className="object-cover rounded-t-lg shadow-2xl"
+                />
+              </div>
               
               {/* Floating stats boxes */}
               <div className="absolute bottom-8 left-8 md:bottom-16 md:left-16 bg-white/90 backdrop-blur-sm p-4 rounded-lg shadow-lg">
